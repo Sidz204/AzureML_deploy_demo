@@ -35,7 +35,7 @@ def predict():
     final_features = [np.array(int_features)]
     prediction = model.predict(final_features)
     
-    return render_template('home.html', prediction_text="prediction output :{}".format(prediction[0]))
+    return render_template('home.html', prediction_text="prediction output -:{}".format(prediction[0]))
 
 
 
